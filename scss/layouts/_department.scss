@@ -1,0 +1,43 @@
+#depertment{
+    margin-top: 25px;
+   .title{
+        text-align: center;
+        h2{
+            color: #000;
+            font-family: $worksansFont;
+            font-weight: bold;
+        }
+        p{
+            color: $p-text;
+            margin:15px 30px;
+            font-family: $worksansFont;
+            
+        }
+   }
+
+   .col__one{
+        background-color: #F9703A;
+        text-align: center;
+        img{
+            margin: 0 auto;
+        }
+        span{
+            display: block;
+            color: #fff;
+            font-size: 30px;
+            padding-bottom: 35px;
+            font-family: $worksansFont;
+        }
+    }
+
+    .col__two{
+        background-color: #81BF42;
+        @extend .col__one;
+    }
+
+    .col__three{
+        background-color: #FFB258;
+        @extend .col__one;
+    }
+
+}

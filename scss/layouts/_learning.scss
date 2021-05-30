@@ -1,0 +1,62 @@
+#learning{
+    margin-top: 60px;
+    img{
+        margin-left: -200px;
+    }
+    h2{
+        font-size: 40px;
+        font-family: $worksansFont;
+        font-weight: bold;
+    }
+    p{
+        margin: 24px 0px 24px 0px;
+        font-family: $worksansFont;
+        font-size: 16px;
+    }
+
+    .three__col{
+        margin-top: 40px;
+        display: flex;
+    }
+
+    .three__col--one {
+        p{
+            margin: 0px;
+            margin-right:100px;
+            font-size: 40px;
+            font-weight: bold;
+            color: $common-font-color;
+        }
+        span{
+            color: $common-font-color;
+        }
+    }
+
+    .three__col--two {
+        p{
+            margin: 0px;
+            margin-right:100px;
+            font-size: 40px;
+            font-weight: bold;
+            color: #FF5F72;
+        }
+        span{
+            color: #FF5F72;
+        }
+    }
+
+    .three__col--three {
+        p{
+            margin: 0px;
+            margin-right:100px;
+            font-size: 40px;
+            font-weight: bold;
+            color: #43CB83;
+        }
+        span{
+            color: #43CB83;
+        }
+    }
+
+
+}
